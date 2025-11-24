@@ -1,5 +1,11 @@
 package ma.abdelhamid.supporttickets;
 
+/**
+ * Main entry point for the Support Ticket Manager application.
+ * Initializes the core components and starts the console interface.
+ */
+
+
 public class Main {
 
     public static void main(String[] args) {

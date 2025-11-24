@@ -1,5 +1,10 @@
 package ma.abdelhamid.supporttickets;
 
+/**
+ * A class representing a support ticket with details like client name, type, priority, and status.
+ */
+
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 

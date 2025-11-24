@@ -1,5 +1,7 @@
 package ma.abdelhamid.supporttickets;
 
+
+
 import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
@@ -13,6 +15,10 @@ public class TicketService {
         this.repository = repository;
         this.fileStorage = fileStorage;
     }
+
+    /**
+     * Creates a new ticket and stores it in the repository.
+     */
 
     public Ticket createTicket(String clientName,
                                String phoneNumber,
