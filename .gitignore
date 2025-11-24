@@ -1,39 +1,54 @@
+########################
+# Build / dépendances  #
+########################
+
+# Maven
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-.kotlin
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+# Gradle (au cas où un jour)
+.gradle/
+build/
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.swp
+
+########################
+# IDE / Éditeurs       #
+########################
+
+# IntelliJ IDEA
+.idea/
 *.iml
+*.iws
 *.ipr
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
+# Eclipse
 .project
-.settings
-.springBeans
-.sts4-cache
+.classpath
+.settings/
+.bin/
 
-### NetBeans ###
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# VS Code
 .vscode/
 
-### Mac OS ###
+########################
+# Systèmes d'exploitation
+########################
+
+# macOS
 .DS_Store
+
+# Windows
+Thumbs.db
